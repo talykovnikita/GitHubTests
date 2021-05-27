@@ -1,3 +1,5 @@
+package herokuapp;
+
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.*;
@@ -19,7 +21,7 @@ public class githubTests {
         open("https://github.com/selenide/selenide");
         $(withText("Wiki")).click();
         $(withText("more pages")).click();
-        $(withText("SoftAssertions")).shouldBe(visible);
+        $(withText("SoftAssertions")).click();
         $("#wiki-body").shouldHave(text("Using JUnit5 extend test class:"));
     }
 }
