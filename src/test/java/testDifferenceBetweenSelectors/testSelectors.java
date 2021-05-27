@@ -2,10 +2,6 @@ package testDifferenceBetweenSelectors;
 
 import org.junit.jupiter.api.Test;
 
-import org.junit.jupiter.api.Test;
-
-import static com.codeborne.selenide.Condition.*;
-import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.*;
 
 public class testSelectors {
