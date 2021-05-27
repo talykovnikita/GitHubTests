@@ -1,15 +1,9 @@
 package github;
 
-import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.interactions.Coordinates;
 
 import static com.codeborne.selenide.Condition.*;
-import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.*;
-import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 
 public class dragAndDropTests {
 
