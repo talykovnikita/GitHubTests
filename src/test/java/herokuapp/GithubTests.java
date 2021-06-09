@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class githubTests {
+public class GithubTests {
     @Test
     public void checkSoftAssertionsIsPresentInPagesViaSearch(){
         open("https://github.com/selenide/selenide");
