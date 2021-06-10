@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selenide.*;
 
-public class TestSelectors {
+public class testSelectors {
 
     @Test
     public void test1(){
