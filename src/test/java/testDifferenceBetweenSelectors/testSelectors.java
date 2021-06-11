@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class testSelectors {
     
-public static void gitBoss(String[] args) {
+public static void gitBoss() {
     System.out.println("Это вторжение:)"));
     }
     
