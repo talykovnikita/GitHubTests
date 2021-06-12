@@ -1,5 +1,7 @@
 package herokuapp;
 
+import com.codeborne.selenide.logevents.SelenideLogger;
+import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.*;
@@ -9,6 +11,7 @@ import static com.codeborne.selenide.Selenide.*;
 public class githubTests {
     @Test
     public void checkSoftAssertionsIsPresentInPagesViaSearch(){
+        SelenideLogger.addListener("AllureSelenide", new AllureSelenide().screenshots(true).savePageSource(false));
         open("https://github.com/selenide/selenide");
         $(withText("Wiki")).click();
         $("#wiki-pages-filter").setValue("Soft");
